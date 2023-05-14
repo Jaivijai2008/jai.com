@@ -1,1 +1,1 @@
-# jai.com
+# uruppudatha_payaluga.com
