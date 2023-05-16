@@ -1,17 +1,11 @@
-p {
+h1 {
 
-    color: green;
-    margin: 30px;
-    
-}
-#h{
+    border: 2px solid red;
 
-    color: black;
-    margin: 0%;
-    background-color: red;
-    padding: 1em;
-    padding-left: 2em;
+    width: 100%;
+    font-size: 3rem;
+    padding: 0.5em;
+    text-align: center;
 
-    
-    
+
 }
