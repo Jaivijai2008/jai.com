@@ -1,21 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>Login Page</title>
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+    }
     
-    <title >Document</title>
-    <link rel="stylesheet" href="style.css">
-
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group:last-child {
+      margin-bottom: 0;
+    }
+    
+    .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 <body>
-    <h1> computers computers computers computers computers </h1>
-    <a href="www.google.com"> google</a>
-    <p >A computer is an electronic device that was discovered by Charles Babbage. </p>
-    <h1> it</h1>
-    <p> IT employees are in demand to help others keep up with technological advances and security procedures</p>
-    <h1> keyboard</h1>
-    <p>A computer keyboard is a peripheral input device modeled after the typewriter keyboardwhich uses an arrangement of buttons</p>
-    <a href="https://www.youtube.com/"  target="_blank">click here</a>
-    <h1>hello world</h1>
-    <h1>key</h1>
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <input type="submit" value="Login">
+    </form>
+  </div>
 </body>
 </html>
