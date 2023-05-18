@@ -4,7 +4,7 @@
   <title>Login Page</title>
   <style>
     body {
-      background-color: #f3f3f3;
+      background-color: rgba(178, 34, 34,0.8);
       font-family: Arial, sans-serif;
     }
     
@@ -12,9 +12,9 @@
       max-width: 400px;
       margin: 100px auto;
       padding: 20px;
-      background-color: #fff;
+      background-color: rgba(255, 0, 0,0.5);
       border-radius: 5px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 10px #0000001a;
     }
     
     h1 {
@@ -59,12 +59,15 @@
       font-size: 14px;
       margin-top: 5px;
     }
+
+
+    
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Login</h1>
-    <form>
+    <form action="next.html">
       <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
